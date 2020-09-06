@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+.section-left {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.section-right {
+    width: 50%;
+    float: left;
+    border-left: 1px solid gray;
+}
+
+.section-left-content {
+    margin-left: 10%;
+    width: 85%;
+}
+
+.form-row {
+    margin-top: 10px;
+}
+
+.cart {
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.cart-header {
+    text-align: center;
+}
+
+.cart-header, .cart-body, .cart-footer {
+    margin-top: 10px;
+}
+
+.cart-body-title {
+    width: 100%;
+    height: 30px;
+}
+
+.cart-body-item {
+    width: 100%;
+    height: 111px;
+}
+
+.cart-body-title-img, .cart-body-item-img, 
+.cart-body-title-name, .cart-body-item-name {
+    width: 25%;
+    float: left;
+}
+
+.cart-body-title-size, .cart-body-item-size,
+.cart-body-title-qty, .cart-body-item-qty {
+    width: 15%;
+    float: left;
+}
+.cart-body-title-price, .cart-body-item-price {
+    width: 10%;
+    float: left;
+}
+
+.cart-body-item-img, .cart-body-item-name,
+.cart-body-item-size, .cart-body-item-qty, .cart-body-item-price {
+    height: 100%;
+}
+
+.cart-footer-section1 {
+    width: 100%;
+}
+
+.cart-footer-temp {
+    width: 100%;
+}
